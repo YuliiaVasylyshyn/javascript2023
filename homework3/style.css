@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+.product-card {
+    width: 250px;
+}
+.product-title {
+    width: 100%;
+    background: skyblue;
+}
+.product-image {
+    width: 100%;
+}
