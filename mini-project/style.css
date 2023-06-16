@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 1500px;
+    margin: auto;
+}
+.users{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 700px;
+    background: cornsilk;
+}
+.users_one_user{
+    width: 40%;
+    height: 200px;
+    margin: 4%;
+    padding: 4%;
+    background: lightblue;
+}
+.users_one_user_id {
+    display: flex;
+    justify-content: center;
+    color: forestgreen;
+}
+.users_one_user_name {
+    display: flex;
+    justify-content: center;
+    color: darkolivegreen;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    color: royalblue;
+    text-decoration: none;
+    border: 2px solid lavender;
+    padding: 7px;
+}

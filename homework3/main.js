@@ -26,6 +26,7 @@ while (i2 < 20) {
     i2++;
 }
 
+
 // - Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону
 // Масив:
@@ -46,11 +47,14 @@ while (i2 < 20) {
 // замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
 //
 
-let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+document.write(`<ul>`);
 for (listOfItem of listOfItems) {
-   document.write (`<ul><li>${listOfItem}</li></ul>`);
+   document.write (`<li>${listOfItem}</li>`);
 }
+document.write(`</ul>`);
+
 
 //     Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону  Зробити адекватну стилізацію
@@ -168,3 +172,25 @@ for (iter = 0; iter < users.length; iter++) {
         console.log(user);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
